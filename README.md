@@ -1,0 +1,2 @@
+# konsolUygulamas-
+vektorel akademi proje
