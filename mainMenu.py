@@ -15,4 +15,4 @@ print("║  Seçiminizi Yapınız    ║")
 print("╚════════════════════════╝")
 print("Seçiminiz:")
 input()
-
+#deneme
