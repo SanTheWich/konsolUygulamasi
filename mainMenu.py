@@ -13,8 +13,7 @@ print("║10-SICAKLIK ÇEVİRME     ║")
 print("║11-ÇIKIŞ  (e)           ║")
 print("║  Seçiminizi Yapınız    ║")
 print("╚════════════════════════╝")
-print("Seçiminiz:")
-input()
-#deneme
-#deneme
-#deneme
+secim=int(input("Seçiminiz:"))
+for i in range(6):
+    if i==secim:
+        print(f"{secim} seçtiniz")
