@@ -19,6 +19,10 @@
         <td>Hesap Makinesi</td>
         <td>Tamamlandı</td>
       </tr>
+      <tr>
+        <td>Menü bağlantısı</td>
+        <td>uğraşıyommm</td>
+      </tr>
     </tbody>
   </table>
 </div>
