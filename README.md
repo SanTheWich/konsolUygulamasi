@@ -21,7 +21,7 @@
       </tr>
       <tr>
         <td>Menü bağlantısı</td>
-        <td>uğraşıyommm</td>
+        <td>Tamamlandı </td>
       </tr>
     </tbody>
   </table>
