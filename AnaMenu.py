@@ -20,6 +20,6 @@ for i in range(6):
 import HesapMakinesiModülü.hesapMakinesi as hm #bunu hm olarak çağıracağım demektir
 import Oyunlar.OyunMenu as om
 if secim==1:
-   print(hm.hesapMakinesiMenu())
+   hm.hesapMakinesiMenu()
 elif secim==2:
-    print(om.oyunMenusu())
+    om.oyunMenusu()
