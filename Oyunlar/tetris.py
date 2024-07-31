@@ -217,3 +217,8 @@ def tetrisOyna():
         clock.tick(fps)
 
     pygame.quit()
+def main():
+    tetrisOyna()
+
+if __name__ == "__main__":
+    main()

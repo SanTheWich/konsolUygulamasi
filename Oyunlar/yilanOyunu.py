@@ -138,3 +138,8 @@ def yilanOyna():
                 hiz = 0.15
     
         time.sleep(delay)
+def main():
+    yilanOyna()
+
+if __name__ == "__main__":
+    main()

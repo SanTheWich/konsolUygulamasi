@@ -9,4 +9,8 @@ def sekilAlanMenu():
     print("║     3-DAİRE         ║")
     print("║     4-DİKTÖRGEN     ║")
     print("╚═════════════════════╝")
-sekilAlanMenu()
+def main():
+    sekilAlanMenu()
+
+if __name__ == "__main__":
+    main()
