@@ -9,7 +9,6 @@ def hesapMakinesiMenu():
     print("╚═════════════════════╝")
     hesaplama=str(input())
     a=int(input("Lütfen ilk sayınızı giriniz: "))
-
     b=int(input("Lütfen ikinci sayınızı giriniz: "))
     toplama = '+'
     bolme = '/'
@@ -20,7 +19,7 @@ def hesapMakinesiMenu():
         print(f"{a} + {b} = {a+b}")
     elif hesaplama == bolme:
             if b==0:
-                 print("ERROR")
+                 print("HATA!!")
             else:print("{} / {} = {}".format(a,b,a/b))
                 
     elif hesaplama == carpma:
