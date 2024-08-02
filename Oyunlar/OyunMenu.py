@@ -2,20 +2,20 @@ def oyunMenusu():
     print("╔════════════════════════╗")
     print("║        OYUNLAR         ║")
     print("║1-YILAN                 ║")
-    print("║2-TETRİS                ║")
-    print("║3-ŞEKİL ÇİZDİRME        ║")
+    print("║2-TETRIS                ║")
+    print("║3-SAYI TAHMIN ETME      ║")
     print("║  Seçiminizi Yapınız    ║")
     print("╚════════════════════════╝")
-    secim=str(input("Seçiminiz:"))
+    secim=int(input("Seçiminiz:"))
     import yilanOyunu
     import tetris
-    if secim=="1":
+    import sayiTahmin
+    if secim==1:
        yilanOyunu.yilanOyna()
-    elif secim == "2" :
+    elif secim ==2:
         tetris.tetrisOyna()
-    elif secim=="13":
-        print("Oyun yok")
-# oyunMenusu()
+    elif secim==3:
+        sayiTahmin.sayiBilmeceOyna()
 def main():
     oyunMenusu()
 
