@@ -1,10 +1,10 @@
 def sayiBilmeceOyna():
     import random
     sayi=(random.randint(1,10))
-    hak=5
+    hak=3
     puan=100
-    for a in range (5):
-        tahmin=int(input("1 ile 10 arasindan sayi tahmin ediniz: "))
+    for a in range (3):
+        tahmin=int(input("\033[1;31;40m1 ile 10 arasindan sayi tahmin ediniz: \033[1;32;40m  "))
         if sayi==tahmin:
             print(f"Doğru bildiniz \n Puaniniz {puan}")
             break
