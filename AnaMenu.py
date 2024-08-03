@@ -19,7 +19,10 @@ for i in range(6):
         print(f"{secim} seçtiniz")
 import HesapMakinesiModülü.hesapMakinesi as hm #bunu hm olarak çağıracağım demektir
 import Oyunlar.OyunMenu as om
+import RitmikSayma.ritmikSayma as rt
 if secim==1:
    hm.hesapMakinesiMenu()
 elif secim==2:
     om.oyunMenusu()
+elif secim==5:
+    rt.ritmiksay()

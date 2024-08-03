@@ -1,4 +1,7 @@
 def oyunMenusu():
+    import Oyunlar.yilanOyunu
+    import Oyunlar.tetris
+    import Oyunlar.sayiTahmin
     print("╔════════════════════════╗")
     print("║        OYUNLAR         ║")
     print("║1-YILAN                 ║")
@@ -7,15 +10,12 @@ def oyunMenusu():
     print("║  Seçiminizi Yapınız    ║")
     print("╚════════════════════════╝")
     secim=int(input("Seçiminiz:"))
-    import yilanOyunu
-    import tetris
-    import sayiTahmin
     if secim==1:
-       yilanOyunu.yilanOyna()
+        Oyunlar.yilanOyunu.yilanOyna()
     elif secim ==2:
-        tetris.tetrisOyna()
+        Oyunlar.tetris.tetrisOyna()
     elif secim==3:
-        sayiTahmin.sayiBilmeceOyna()
+        Oyunlar.sayiTahmin.sayiBilmeceOyna()
 def main():
     oyunMenusu()
 
