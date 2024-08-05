@@ -4,6 +4,7 @@ def sekilCiz():
     print("╔════════════════════════════╗")
     print("║\033[1;31;40mSekil Cizdirmeye Hosgeldiniz\033[1;32;40m║")
     print("║1-HESAP MAKİNESİ            ║")
+    print("║1-HESAP MAKİNESİ            ║")
     print("║2-OYUNLAR                   ║")
     print("║3-ŞEKİL ÇİZDİRME            ║")
     print("║4-TAKVİM                    ║")
