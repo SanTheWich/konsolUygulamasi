@@ -1,19 +1,18 @@
-def NotHesapla():
+def ortalama():
     print("\033[1;32;40m")
     print("╔════════════════════════╗")
     print("║\033[1;31;40mNot Hesaplamaya Hosgeldiniz \033[1;32;40m     ║")
     flag="c"
-    dersAdi[100]=("")
+    dersAdi=[]
+    dersSaati=[]
+    i=0
     while True:
         if flag=="e":
             break
         else:
-            while True:
-                if flag=="e":
-                    break
-            else:
-                dersAdi[i]=str(input("║Ders adi giriniz║"))
-            
+                #!array add bak dersAdi[i]=str(input("║Ders adi giriniz║"))
+                i+=1
+                flag=str(input("Devam mı(c), Tamam mı(e)"))
  
  
     # print("║1-HESAP MAKİNESİ        ║")
@@ -28,7 +27,7 @@ def NotHesapla():
     # print("╚════════════════════════╝")
 
 def main():
-    NotHesapla()
+    ortalama()
 
 if __name__ == "__main__":
     main()
