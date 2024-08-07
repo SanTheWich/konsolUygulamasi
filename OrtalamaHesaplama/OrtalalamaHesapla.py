@@ -1,7 +1,7 @@
 def ortalama():
     print("\033[1;32;40m")
     print("╔════════════════════════╗")
-    print("║\033[1;31;40mNot Hesaplamaya Hosgeldiniz \033[1;32;40m     ║")
+    print("║\033[1;31;40mOrtalama Hesaplamaya Hosgeldiniz \033[1;32;40m     ║")
     flag="c"
     dersAdi=[]
     dersSaati=[]
