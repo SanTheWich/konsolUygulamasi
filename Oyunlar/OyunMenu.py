@@ -7,6 +7,7 @@ def oyunMenusu():
     print("║1-YILAN                 ║")
     print("║2-TETRIS                ║")
     print("║3-SAYI TAHMIN ETME      ║")
+    print("║4-BLACKJACK(21)         ║")
     print("║  Seçiminizi Yapınız    ║")
     print("╚════════════════════════╝")
     secim=int(input("Seçiminiz:"))
