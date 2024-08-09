@@ -1,22 +1,30 @@
+
+
+
+
 def oyunMenusu():
-    import Oyunlar.yilanOyunu
-    import Oyunlar.tetris
-    import Oyunlar.sayiTahmin
+    import yilanOyunu
+    import tetris
+    import sayiTahmin
+    import blackjack
     print("╔════════════════════════╗")
     print("║        OYUNLAR         ║")
     print("║1-YILAN                 ║")
     print("║2-TETRIS                ║")
     print("║3-SAYI TAHMIN ETME      ║")
     print("║4-BLACKJACK(21)         ║")
+    print("║5-YAZI TURA             ║")
     print("║  Seçiminizi Yapınız    ║")
     print("╚════════════════════════╝")
     secim=int(input("Seçiminiz:"))
     if secim==1:
-        Oyunlar.yilanOyunu.yilanOyna()
+        yilanOyunu.yilanOyna()
     elif secim ==2:
-        Oyunlar.tetris.tetrisOyna()
+        tetris.tetrisOyna()
     elif secim==3:
-        Oyunlar.sayiTahmin.sayiBilmeceOyna()
+        sayiTahmin.sayiBilmeceOyna()
+    elif secim==4:
+        blackjack.blackjackOyna()
 def main():
     oyunMenusu()
 
