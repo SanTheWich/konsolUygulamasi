@@ -7,6 +7,7 @@ def oyunMenusu():
     import tetris
     import sayiTahmin
     import blackjack
+    import yaziTura
     print("╔════════════════════════╗")
     print("║        OYUNLAR         ║")
     print("║1-YILAN                 ║")
@@ -25,6 +26,8 @@ def oyunMenusu():
         sayiTahmin.sayiBilmeceOyna()
     elif secim==4:
         blackjack.blackjackOyna()
+    elif secim==5:
+        yaziTura.yaziTuraAt()
 def main():
     oyunMenusu()
 
