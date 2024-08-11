@@ -11,7 +11,7 @@ print("║7-TARİH                 ║")
 print("║8-NOT HESAPLAMA         ║")
 #!print("║9-MESAİ ÜCRET HESAPLA   ║")
 #!print("║10-DERECE DONUSTURME    ║")
-print("║11-ÇIKIŞ  (e)            ║")
+print("║11-ÇIKIŞ  (e)           ║")
 print("║  Seçiminizi Yapınız    ║")
 print("╚════════════════════════╝")
 secim=int(input("Seçiminiz:"))
@@ -29,13 +29,13 @@ if secim==1:
    hm.hesapMakinesiMenu()
 elif secim==2:
     om.oyunMenusu()
-elif secim==4:
+elif secim==3:
     rt.ritmiksay()
-elif secim==6:
+elif secim==5:
     ct.Carpim()
-elif secim==7:
+elif secim==6:
     sh.sekilAlanMenu()
-elif secim==8:
+elif secim==7:
     tg.tarih()
-elif secim==10:
+elif secim==8:
     nh.puanHesaplama()

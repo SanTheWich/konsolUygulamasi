@@ -1,7 +1,6 @@
 
 
 
-
 def oyunMenusu():
     import yilanOyunu
     import tetris
