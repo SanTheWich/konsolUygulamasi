@@ -17,13 +17,17 @@ def hesapMakinesiMenu():
 
     if hesaplama == toplama:
         print(f"{a} + {b} = {a+b}")
+        input()
     elif hesaplama == bolme:
             if b==0:
                  print("HATA!!")
             else:print("{} / {} = {}".format(a,b,a/b))
+            input()
                 
     elif hesaplama == carpma:
         print("{} * {} = {}".format(a,b,a*b))
+        input()
     elif hesaplama == cikarma:
         print("{} - {} = {}".format(a,b,a-b))
+        input()
 #hesapMakinesiMenu()
