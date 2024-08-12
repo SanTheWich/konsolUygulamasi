@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b8e90988-b409-4d42-9969-32be6b6f93c3)<!DOCTYPE html>
+<!DOCTYPE html>
 <h1>Vektorel Akademi Proje</h1>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Python-logo.png" class="img-thumbnail" style="width:60px;height:60px;">
