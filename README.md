@@ -25,4 +25,6 @@
       </tr>
     </tbody>
   </table>
+  <h1>Ana Menu</h1>
+  <img src="anaMenu.png" alt="Ana menü">
 </div>
