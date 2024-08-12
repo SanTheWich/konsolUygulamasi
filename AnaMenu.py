@@ -10,7 +10,7 @@ print("║6-ŞEKİL ALAN HESAPLAMA  ║")
 print("║7-TARİH                 ║")
 print("║8-NOT HESAPLAMA         ║")
 #!print("║9-MESAİ ÜCRET HESAPLA   ║")
-#!print("║10-DERECE DONUSTURME    ║")
+print("║10-DERECE DONUSTURME    ║")
 print("║11-ÇIKIŞ  (e)           ║")
 print("║  Seçiminizi Yapınız    ║")
 print("╚════════════════════════╝")
@@ -25,6 +25,7 @@ import CarpimTablosu.carpimTablosu as ct
 import Tarih.tarihGoster as tg
 import SekilAlanHesaplama.SekilAlanAnaMenu as sh
 import NotHesaplama.NotHesaplama as nh
+import DereceDonusturme.dereceDonusturAnaMenu as dd
 if secim==1:
    hm.hesapMakinesiMenu()
 elif secim==2:
@@ -39,3 +40,5 @@ elif secim==7:
     tg.tarih()
 elif secim==8:
     nh.puanHesaplama()
+elif secim==10:
+    dd.dereceMenu()

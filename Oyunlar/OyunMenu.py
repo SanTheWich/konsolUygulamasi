@@ -2,11 +2,11 @@
 
 
 def oyunMenusu():
-    import yilanOyunu
-    import tetris
-    import sayiTahmin
-    import blackjack
-    import yaziTura
+    import Oyunlar.yilanOyunu
+    import Oyunlar.tetris
+    import Oyunlar.sayiTahmin
+    import Oyunlar.blackjack
+    import Oyunlar.yaziTura
     print("╔════════════════════════╗")
     print("║        OYUNLAR         ║")
     print("║1-YILAN                 ║")
@@ -18,15 +18,15 @@ def oyunMenusu():
     print("╚════════════════════════╝")
     secim=int(input("Seçiminiz:"))
     if secim==1:
-        yilanOyunu.yilanOyna()
+        Oyunlar.yilanOyunu.yilanOyna()
     elif secim ==2:
-        tetris.tetrisOyna()
+        Oyunlar.tetris.tetrisOyna()
     elif secim==3:
-        sayiTahmin.sayiBilmeceOyna()
+        Oyunlar.sayiTahmin.sayiBilmeceOyna()
     elif secim==4:
-        blackjack.blackjackOyna()
+        Oyunlar.blackjack.blackjackOyna()
     elif secim==5:
-        yaziTura.yaziTuraAt()
+        Oyunlar.yaziTura.yaziTuraAt()
 def main():
     oyunMenusu()
 
