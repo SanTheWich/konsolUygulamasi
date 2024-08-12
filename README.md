@@ -25,7 +25,6 @@
       </tr>
     </tbody>
   </table>
-  <h1>Ana Menu</h1>![anaMenu](https://github.com/user-attachments/assets/6bec8a12-20d3-4ed3-90fd-f91fbff353b1)
-
-  <img src="[anaMenu.png](https://github.com/user-attachments/assets/6bec8a12-20d3-4ed3-90fd-f91fbff353b1)" alt="Ana menü">
+  <h1>Ana Menu</h1>!
+  <img src="https://github.com/user-attachments/assets/6bec8a12-20d3-4ed3-90fd-f91fbff353b1" alt="Ana menü">
 </div>
