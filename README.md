@@ -25,4 +25,9 @@
       </tr>
     </tbody>
   </table>
+  <h1>Ana Menu</h1>
+  <img src="https://github.com/user-attachments/assets/6bec8a12-20d3-4ed3-90fd-f91fbff353b1" alt="Ana menü">
+  <h1>Oyunlar Menüsü</h1>
+  <img src="https://github.com/user-attachments/assets/5d579972-d8e1-4dcf-b32f-e4ba6611df4e" alt="Oyun menü">
+
 </div>
